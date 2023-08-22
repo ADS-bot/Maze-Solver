@@ -16,8 +16,10 @@ You can install the required libraries using the following commands:
 ```bash
 pip install opencv-python matplotlib numpy
 
+```
+
 # Code Explanation
-maze_solver.py
+solving.py
 This script reads the maze image, defines the source and destination coordinates, and then uses the A* algorithm to find the shortest path. The path is plotted on the image, and the image with the path is displayed.
 
 ## Import Libraries
@@ -31,11 +33,11 @@ The maze image is read using cv2.imread(). The starting and ending points are de
 The Vertex class represents a vertex in the A* algorithm. It contains information about the vertex's coordinates, distance (d) from the source, parent vertex coordinates, and whether it has been processed.
 
 ## Define A* Algorithm Functions
-heuristic(a, b): Computes the Euclidean distance between two points.
-a_star(matrix, source, destination, img): Implements the A* algorithm to find the shortest path from the source to the destination.
-get_neighbors(mat, r, c): Returns unprocessed neighboring vertices of a given vertex.
-get_distance(img, u, v): Computes the Euclidean distance between two points based on RGB values.
-Main Execution
+heuristic(a, b): Computes the Euclidean distance between two points.<br>
+a_star(matrix, source, destination, img): Implements the A* algorithm to find the shortest path from the source to the destination. <br>
+get_neighbors(mat, r, c): Returns unprocessed neighboring vertices of a given vertex.<br>
+get_distance(img, u, v): Computes the Euclidean distance between two points based on RGB values. <br>
+# Main Execution
 Reads the maze image using cv2.imread().
 Sets the source and destination coordinates.
 Creates a matrix of Vertex objects for each pixel in the image.
@@ -45,3 +47,6 @@ Displays the image with the path using matplotlib.pyplot.
 ## Usage Tips
 Ensure the maze image is in the same directory as the script.
 Adjust the source and destination coordinates based on the specific maze image.
+<br>
+### Contributing
+Feel free to contribute to this repository by opening issues or pull requests. Your feedback and improvements are welcome!

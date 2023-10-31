@@ -3,7 +3,7 @@
 This repository contains Python code to solve a maze using the A* algorithm. The algorithm finds the shortest path from a starting point to an ending point in a given maze image.
 
 ## Coordinates
-For Starting & Ending Coordinates Use<br> Upload the Image, Mark the points and Note the Coordinates. <br> https://shorturl.at/tDLW1
+For Starting & Ending Coordinates Use<br> Upload the Image, Mark the points and Note the Coordinates. <br> [https://shorturl.at/tDLW1](https://www.mobilefish.com/services/record_mouse_coordinates/record_mouse_coordinates.php)
 
 ## Prerequisites
 
